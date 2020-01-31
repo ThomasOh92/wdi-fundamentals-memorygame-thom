@@ -16,4 +16,4 @@ if (cardsInPLay.length === 2) {
 	else {
 		alert("Sorry Try Again!");
 	}
-}
+};
