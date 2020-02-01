@@ -40,14 +40,14 @@ function flipCard() {
 
 function checkForMatch() {
 	if (cardsInPlay[0] === cardsInPlay[1]){
-	console.log("You found a match!");
-	alert("You found a match!");
-	counter++;
-	document.getElementById("score").innerHTML = "Score: " + counter;
+		console.log("You found a match!");
+		alert("You found a match!");
+		counter++;
+		document.getElementById("score").innerHTML = "Score: " + counter;
 	}
 	else {
-	console.log("Sorry Try Again!");
-	alert("Sorry Try Again");
+		console.log("Sorry Try Again!");
+		alert("Sorry Try Again");
 	}
 }
 
